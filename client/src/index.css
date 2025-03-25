@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+
+:root {
+  /* Primary Colors */
+  --color-primary: #4B0082; /* Deep Purple for boldness and focus */
+  --color-primary-light: #6A5ACD; /* Slightly lighter purple for contrast and depth */
+  --color-primary-dark: #3A0066; /* Dark purple for accents and deeper contrasts */
+  
+  /* Accent Colors */
+  --color-accent: #4CAF50; /* Fresh, balanced green for buttons, icons, etc. */
+  --color-accent-light: #81C784; /* Light green for softer accents and hover effects */
+  
+  /* Neutral Colors */
+  --color-white: #FFFFFF; /* White for text and backgrounds */
+  --color-light-gray: #F5F5F5; /* Light gray for backgrounds and soft borders */
+  --color-gray-medium: #E0E0E0; /* Medium gray for text and borders */
+  --color-dark-gray: #333333; /* Dark gray for primary text */
+  
+  /* Button Green */
+  --color-button: #55C057; /* Refined, strong green for action buttons */
+}
