@@ -7,12 +7,14 @@ import AddPatient from './pages/AddPatient';
 import PatientPage from './pages/PatientPage'; // Added PatientPage for listing all patients
 import PatientDetails from './pages/PatientDetails'; // Added PatientDetails for viewing specific patient
 import ProgressTracking from './pages/ProgressTracking'; // Added ProgressTracking for tracking patient progress
+import Home from './pages/Home'; // Added Home for the landing page
 
 function App() {
   return (
     <Router>
       <Routes>
         {/* Routes for Login, Register, and Dashboards */}
+        <Route path='/home' element={<Home/>}/>
         <Route path="/" element={<Login />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />    

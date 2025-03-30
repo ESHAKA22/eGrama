@@ -24,7 +24,7 @@ function Login() {
       if (user.role === 'phm') {
         navigate('/dashboard'); // Redirect to PHM Dashboard
       } else if (user.role === 'patient') {
-        navigate('/patient-dashboard'); // Redirect to Patient Dashboard
+        navigate('/home'); // Redirect to Patient Dashboard
       } else {
         setError('Role not recognized.');
       }
