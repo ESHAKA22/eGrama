@@ -1,0 +1,72 @@
+version: "2.0"
+
+intents:
+  - apply_certificate
+  - login_help
+  - event_venue
+  - apply_event
+  - event_date
+  - event_cost
+  - certificate_status
+  - event_requirements
+  - event_time
+  - certificate_deadline
+  - event_location_parking
+  - event_registration_deadline
+  - certificate_requirements
+  - event_payment_methods
+  - login_password_reset
+  - event_cancellation_policy
+  - certificate_delivery
+  - event_contact_info
+  - login_account_locked
+  - event_age_restrictions
+  - fallback
+
+responses:
+  utter_apply_certificate:
+    - text: "Visit our website, click 'Apply,' and fill out the form."
+  utter_login_help:
+    - text: "Go to the login page, enter your username and password, and click 'Submit.'"
+  utter_event_venue:
+    - text: "The event will be held at the City Convention Center, located at 123 Main Street, Downtown."
+  utter_apply_event:
+    - text: "To apply for the event, visit our website, click on the 'Events' tab, select the event, and click 'Register.' Fill out the form and submit your application."
+  utter_event_date:
+    - text: "The event is scheduled for June 15, 2025, at 10:00 AM."
+  utter_event_cost:
+    - text: "The event costs $50 for general admission. You can purchase tickets on our website."
+  utter_certificate_status:
+    - text: "You can check your certificate status by logging into your account and visiting the 'Certificates' section."
+  utter_event_requirements:
+    - text: "To attend the event, you need to register online and bring a valid ID on the day of the event."
+  utter_event_time:
+    - text: "The event starts at 10:00 AM and ends at 5:00 PM."
+  utter_certificate_deadline:
+    - text: "The deadline to apply for a certificate is May 30, 2025."
+  utter_event_location_parking:
+    - text: "Parking is available at the venue. There are 200 parking spots at the City Convention Center, and the cost is $10 per day."
+  utter_event_registration_deadline:
+    - text: "The registration deadline for the event is June 1, 2025."
+  utter_certificate_requirements:
+    - text: "To apply for a certificate, you need to complete the required course and submit your application with a $25 fee."
+  utter_event_payment_methods:
+    - text: "You can pay for the event using credit/debit cards, PayPal, or bank transfer through our website."
+  utter_login_password_reset:
+    - text: "To reset your password, go to the login page, click 'Forgot Password,' and follow the instructions to reset it via email."
+  utter_event_cancellation_policy:
+    - text: "You can cancel your event registration up to 7 days before the event for a full refund. After that, no refunds will be issued."
+  utter_certificate_delivery:
+    - text: "Certificates are delivered digitally via email within 5 business days after approval. You can also download them from your account."
+  utter_event_contact_info:
+    - text: "For event inquiries, you can contact us at events@ourwebsite.com or call us at (123) 456-7890."
+  utter_login_account_locked:
+    - text: "If your account is locked, please contact support at support@ourwebsite.com to unlock it."
+  utter_event_age_restrictions:
+    - text: "The event is open to participants aged 18 and above. Minors must be accompanied by an adult."
+  utter_fallback:
+    - text: "I can only answer specific questions about certificates, events, and logging in. Please try rephrasing your question."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,87 @@
+version: "2.0"
+
+rules:
+- rule: Respond to apply_certificate
+  steps:
+  - intent: apply_certificate
+  - action: utter_apply_certificate
+- rule: Respond to login_help
+  steps:
+  - intent: login_help
+  - action: utter_login_help
+- rule: Respond to event_venue
+  steps:
+  - intent: event_venue
+  - action: utter_event_venue
+- rule: Respond to apply_event
+  steps:
+  - intent: apply_event
+  - action: utter_apply_event
+- rule: Respond to event_date
+  steps:
+  - intent: event_date
+  - action: utter_event_date
+- rule: Respond to event_cost
+  steps:
+  - intent: event_cost
+  - action: utter_event_cost
+- rule: Respond to certificate_status
+  steps:
+  - intent: certificate_status
+  - action: utter_certificate_status
+- rule: Respond to event_requirements
+  steps:
+  - intent: event_requirements
+  - action: utter_event_requirements
+- rule: Respond to event_time
+  steps:
+  - intent: event_time
+  - action: utter_event_time
+- rule: Respond to certificate_deadline
+  steps:
+  - intent: certificate_deadline
+  - action: utter_certificate_deadline
+- rule: Respond to event_location_parking
+  steps:
+  - intent: event_location_parking
+  - action: utter_event_location_parking
+- rule: Respond to event_registration_deadline
+  steps:
+  - intent: event_registration_deadline
+  - action: utter_event_registration_deadline
+- rule: Respond to certificate_requirements
+  steps:
+  - intent: certificate_requirements
+  - action: utter_certificate_requirements
+- rule: Respond to event_payment_methods
+  steps:
+  - intent: event_payment_methods
+  - action: utter_event_payment_methods
+- rule: Respond to login_password_reset
+  steps:
+  - intent: login_password_reset
+  - action: utter_login_password_reset
+- rule: Respond to event_cancellation_policy
+  steps:
+  - intent: event_cancellation_policy
+  - action: utter_event_cancellation_policy
+- rule: Respond to certificate_delivery
+  steps:
+  - intent: certificate_delivery
+  - action: utter_certificate_delivery
+- rule: Respond to event_contact_info
+  steps:
+  - intent: event_contact_info
+  - action: utter_event_contact_info
+- rule: Respond to login_account_locked
+  steps:
+  - intent: login_account_locked
+  - action: utter_login_account_locked
+- rule: Respond to event_age_restrictions
+  steps:
+  - intent: event_age_restrictions
+  - action: utter_event_age_restrictions
+- rule: Fallback response
+  steps:
+  - intent: fallback
+  - action: utter_fallback

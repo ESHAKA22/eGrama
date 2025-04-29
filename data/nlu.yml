@@ -1,0 +1,115 @@
+version: "2.0"
+
+nlu:
+- intent: apply_certificate
+  examples: |
+    - how can i apply for a certificate
+    - how do i get a certificate
+    - certificate application process
+    - where can i apply for a certificate
+- intent: login_help
+  examples: |
+    - how can i login
+    - how do i log in
+    - login help
+    - i can’t login
+    - how can i log
+- intent: event_venue
+  examples: |
+    - what is the venue of that event held
+    - where is the event
+    - event location
+    - where will the event be held
+- intent: apply_event
+  examples: |
+    - how can i apply for this event
+    - how do i register for the event
+    - event application process
+    - how to join the event
+- intent: event_date
+  examples: |
+    - what is the event date
+    - when is the event
+    - event schedule
+    - date of the event
+- intent: event_cost
+  examples: |
+    - how much does the event cost
+    - what is the event fee
+    - event ticket price
+    - cost of the event
+- intent: certificate_status
+  examples: |
+    - what is the status of my certificate
+    - certificate status
+    - how do i check my certificate status
+- intent: event_requirements
+  examples: |
+    - what are the requirements for the event
+    - event requirements
+    - what do i need for the event
+- intent: event_time
+  examples: |
+    - what time is the event
+    - event timing
+    - when does the event start
+- intent: certificate_deadline
+  examples: |
+    - what is the deadline for the certificate
+    - certificate application deadline
+    - when is the last day to apply for a certificate
+- intent: event_location_parking
+  examples: |
+    - is there parking at the event
+    - event parking information
+    - parking at the event location
+- intent: event_registration_deadline
+  examples: |
+    - what is the registration deadline for the event
+    - event registration deadline
+    - when is the last day to register for the event
+- intent: certificate_requirements
+  examples: |
+    - what are the requirements for a certificate
+    - certificate requirements
+    - what do i need to get a certificate
+- intent: event_payment_methods
+  examples: |
+    - what payment methods are accepted for the event
+    - event payment methods
+    - how can i pay for the event
+- intent: login_password_reset
+  examples: |
+    - how do i reset my password
+    - login password reset
+    - forgot my password
+- intent: event_cancellation_policy
+  examples: |
+    - what is the cancellation policy for the event
+    - event cancellation policy
+    - can i cancel my event registration
+- intent: certificate_delivery
+  examples: |
+    - how will i receive my certificate
+    - certificate delivery
+    - when will my certificate be delivered
+- intent: event_contact_info
+  examples: |
+    - who do i contact about the event
+    - event contact information
+    - contact for event inquiries
+- intent: login_account_locked
+  examples: |
+    - my account is locked
+    - login account locked
+    - why is my account locked
+- intent: event_age_restrictions
+  examples: |
+    - are there age restrictions for the event
+    - event age restrictions
+    - can kids attend the event
+- intent: fallback
+  examples: |
+    - what’s the weather like
+    - tell me a joke
+    - something random
