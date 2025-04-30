@@ -1,2 +1,2 @@
 # eGrama
-for Grama niladhari division
+“e-Grama” is a digital system that helps Grama Niladhari (GN) divisions manage public services more easily. Residents can request documents, track health records and access financial services. GN officers can handle requests, share updates, and communicate with the community. The system also includes AI-Assisted Certificate Generator, Live chat, Video Conference, and instant notifications, making services faster, easier, and more accessible for everyone..
